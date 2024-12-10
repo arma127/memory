@@ -13,4 +13,5 @@ if - else
 Loops (while)
 Arrays
 Functions
+Arrow Functions
 DOM
