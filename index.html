@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="snowflakes"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
+
+    <div class="control-buttons">
+        <span>Start Game</span>
+        <!-- <button id="restartButton">Restart</button> -->
+    </div>
+
+    <div class="info-container ">
+        <div class="name ">
+            Hello: <span></span>
+        </div>
+        <div class="tries ">
+            Wrong Tries: <span>0</span>
+        </div>
+        <button class="restart-button" style="display: none;">Restart</button>
+    </div>
+
+    <div class="memory-game-blocks ">
+        <div class="game-block " data-image="deer ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/deer.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="deer ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/deer.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="christmas-cup ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/christmas-cup.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="christmas-cup ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/christmas-cup.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="elf hat ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/elf hat.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="elf hat ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/elf hat.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="gift ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/gift.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="gift ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/gift.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="ginger-breads ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/ginger-breads.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="ginger-breads ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/ginger-breads.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="ginger-house ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/ginger-house.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="ginger-house ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/ginger-house.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="hat ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/hat.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="hat ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/hat.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="ornament ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/ornament.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="ornament ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/ornament.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="sweets ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/sweets.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="sweets ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/sweets.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="tree ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/tree.png " alt=" ">
+            </div>
+        </div>
+        <div class="game-block " data-image="tree ">
+            <div class="face front "></div>
+            <div class="face back ">
+                <img decoding="async " src="images/tree.png " alt=" ">
+            </div>
+        </div>
+    </div>
+    <audio id="song" src="audio/Wham_-_Last_Christmas_76934920.mp3 " preload="auto "></audio>
+    <script src="script.js "></script>
+</body>
+
+</html>
