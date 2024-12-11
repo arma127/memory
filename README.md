@@ -12,7 +12,7 @@
 
 
 ## Screenshots
-![Game Screenshot](images/Screenshot.png)
+![Game Screenshot](https://github.com/arma127/memory/blob/main/Screenshot.png)
 
 
 ### Требования:
