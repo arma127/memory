@@ -1,3 +1,5 @@
+[Критерии проекта](https://docs.google.com/document/d/151c5PdDfVcexP5HlunHfMn8JlWwvdRGO/edit?usp=drive_link&ouid=117483123564638472462&rtpof=true&sd=true)
+
 # Memory Game
 
 ## Описание
